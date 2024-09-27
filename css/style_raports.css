@@ -1,0 +1,59 @@
+.description {
+  display: flex;     /* Folosește flexbox pentru a alinia elementele pe orizontală */
+  gap: 20px;         /* Adaugă un spațiu între elemente */
+  padding: 20px;     /* Adaugă padding pentru a separa conținutul de margini */
+  flex-wrap: wrap;   /* Permite elementelor să se rearanjeze pe linii noi, dacă este necesar */
+}
+
+.tabel {
+  flex: 2;
+  width: 100%;
+}
+
+.table-container {
+  overflow-x: auto; /* Add horizontal scrolling*/
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on touch devices */
+}
+
+.table, th, td {
+  border: 1px solid black; /* Grosimea marginii este de 3px, culoarea neagră */
+  border-collapse: collapse; /* Face ca marginile să nu fie duble între celule */
+}
+
+.th, td {
+  padding: 10px; /*Adaugă spațiu între conținut și margine */
+  text-align: center; /* Centrează textul în celule */
+}
+
+#column_1 {
+  width: 100%; /* Make sure the chart takes up the full width */
+  max-width: 100%; /* Prevent overflow */
+  height: 400px; /* Set a fixed height for the chart */
+  margin: 0 auto; /* Center the chart horizontally */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.container-fluid {
+  padding: 10px;
+  text-align: center; 
+  flex: 1;
+}
+
+.card {
+  margin: 12px;
+}
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between the table and pie chart */
+  overflow-x: auto;
+}
+.chart-container > div {
+  flex: 1;
+   margin-right: 20px; 
+}
+.chart-container > div:last-child {
+  margin-right: 0;
+}
+
