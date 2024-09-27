@@ -1,0 +1,175 @@
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-size: large;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.body {
+    display: flex;
+    text-align: center;
+}
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+  .sticky-header {
+      background-color: #333;
+      color: #fff;
+      position: sticky; /* Apply the sticky positioning */
+      top: 0; /* Stick the element to the top of the viewport */
+      z-index: 100; /* Ensure the navbar is above other content */
+  }
+
+
+  .piechart {
+      width: 200px;
+      height: 200px;
+      background-image: conic-gradient(pink 70deg, lightblue 0deg, lightblue 235deg, orange 0deg);
+      border-radius: 50%;
+  }
+
+.create_form {
+    background-color: #f4f7f8;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.create_form h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.saveBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input, select {
+    margin-bottom: 15px;
+}
+
+
+.detailsuser {
+    display: flex; /* Flexbox pentru a pune poza în stânga și chenarul în dreapta */
+    align-items: flex-start; /* Aliniere la începutul vertical */
+    padding: 20px;
+}
+
+.profile-pic {
+    margin-right: 30px; /* Spațiu între poza de profil și chenar */
+}
+
+#profilepicture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #dcdcdc; /* Placeholder pentru imagine */
+    display: block;
+}
+
+.info-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbra pentru chenar */
+    padding: 20px;
+    width: 400px;
+}
+
+.info-box label {
+    display: inline-block;
+    width: 120px; /* Lățimea etichetei */
+    margin-bottom: 15px; /* Spațiu între rânduri */
+}
+
+.info-box span {
+    display: inline-block;
+    width: 200px; /* Lățimea pentru informații */
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #f0f0f0; /* Fundal pentru informațiile statice */
+}
